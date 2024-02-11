@@ -1,0 +1,109 @@
+
+/* media query */
+/* mob */
+@media screen and (max-width:576px) {
+    .navbar{
+        border-bottom-right-radius: 17px ;
+        border-bottom-left-radius:17px ;
+        
+    }
+    .home_section{
+        margin-top: 5rem;
+    }
+    .project_section .project_box,
+    .education_section .education_list{
+        grid-template-columns: repeat(1,auto);
+    }
+    .home_section .intro h2{  
+
+        font-size: 1.5rem;  
+    }
+    .home_section .intro h4{
+        font-size: 1rem;
+        color: white;
+        text-shadow: 2px 2px   rgb(20, 156, 190);
+        
+    }
+    .home_section .intro p{
+  
+    max-width: 500px;
+        font-size: 1rem;  
+    }
+    .home_section .icon>a>i{
+        text-align: center;
+        border-radius: 70px;
+        font-size: 15px;
+        width: 40px;
+        padding: 0.7em;
+    
+    }
+    .home_section .intro{
+        max-width: 300px;
+    }
+
+    .about_section .about_intro .intro_myself {
+        font-size: 1em;
+        max-width: 400px;
+        text-transform: capitalize;
+        border: none;
+        text-align: center;
+        width: 80%;
+    }
+    .about_section .about_intro .intro_head h3{
+        font-size: 1rem;
+      }
+      
+    .skill_scetion .container .skill_arrg{
+        width: 100%;
+    }
+    .skill_scetion .container .skills_set .skill_name{
+        
+        font-size: 1rem;
+    }
+    .education_section .education_list .education{
+       
+        width: 290px;
+        height: 160px;
+        text-align: center;
+    }
+    .project_section .project_box .project_content .project_title .title > h1{
+        font-size: 1rem;
+    }
+    
+    .project_section .project_box .project_content{
+      
+        width: 350px;
+        height: 440px;
+    }
+    .contact-info{
+        width: 80%;
+    }
+    .footer .footer_left{
+        flex-direction: column;
+       
+    }
+
+
+}
+
+/* tab */
+@media screen and (min-width:576px) and (max-width:899px) {
+    .project_section .project_box,
+    .education_section .education_list{
+        grid-template-columns: repeat(1,auto);
+    }
+    .skill_Section .container .skill_arrg,
+    .about_section .about_intro .intro_myself
+    {
+        width: 100%;
+    }
+    .contact-info{
+        width: 80%;
+    }
+    .education_section .education_list .education{
+
+        width: 590px;
+        height: 140px;
+        text-align: center;
+    }
+}
