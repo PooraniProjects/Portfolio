@@ -11,6 +11,9 @@
     .home_section{
         margin-top: 5rem;
     }
+   .intro{
+      max-width:1200px;
+   }
     .project_section .project_box,
     .education_section .education_list{
         grid-template-columns: repeat(1,auto);
@@ -77,7 +80,7 @@
         height: 440px;
     }
     .contact-info{
-        width: 80%;
+        width: 89%;
     }
     .footer .footer_left{
         flex-direction: column;
