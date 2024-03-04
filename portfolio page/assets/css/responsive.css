@@ -2,9 +2,7 @@
 /* media query */
 /* mob */
 @media screen and (max-width:599px) {
-    body{
-        width:1200px;
-    }
+   
     .navbar{
         border-bottom-right-radius: 17px ;
         border-bottom-left-radius:17px ;
@@ -41,7 +39,7 @@
     
     }
     .home_section .intro{
-        max-width: 300px;
+        max-width: 350px;
     }
 
     .about_section .about_intro .intro_myself {
