@@ -1,7 +1,10 @@
 
 /* media query */
 /* mob */
-@media screen and (max-width:576px) {
+@media screen and (max-width:599px) {
+    body{
+        width:1200px;
+    }
     .navbar{
         border-bottom-right-radius: 17px ;
         border-bottom-left-radius:17px ;
@@ -87,7 +90,7 @@
 }
 
 /* tab */
-@media screen and (min-width:576px) and (max-width:899px) {
+@media screen and (min-width:599px) and (max-width:899px) {
     .project_section .project_box,
     .education_section .education_list{
         grid-template-columns: repeat(1,auto);
